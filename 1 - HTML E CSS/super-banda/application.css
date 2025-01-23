@@ -1,0 +1,38 @@
+body {
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  background: url(universo.jpg) center;
+
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #fff;
+}
+
+main {
+  background: #00000052;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/*referenciar id no css é com #
+referenciar class no css é .*/
+
+.logo, .band-name, .headline {
+  margin: 0;
+  text-align: center;
+}
+
+.concerts {
+  margin: 30px 0;
+  text-align: center;
+  width: 100%
+}
+
+.concerts table {
+  background: #c91b1b85;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
